@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Panel_POS_size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">100, 100</Value>
+    </Setting>
+    <Setting Name="Split1_panel1" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="ButtonCateSize" Type="System.Drawing.Size" Scope="Application">
+      <Value Profile="(Default)">140, 80</Value>
+    </Setting>
+    <Setting Name="ButtonItemSize" Type="System.Drawing.Size" Scope="Application">
+      <Value Profile="(Default)">140, 80</Value>
+    </Setting>
+    <Setting Name="ButtonFont" Type="System.Drawing.Font" Scope="Application">
+      <Value Profile="(Default)">Tahoma, 12pt</Value>
+    </Setting>
+    <Setting Name="ConnectionDB" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.\sqlexpress;Initial Catalog=ctm_kr;Persist Security Info=True;User ID=sa;Password=admin123&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\sqlexpress;Initial Catalog=ctm_kr;Persist Security Info=True;User ID=sa;Password=admin123</Value>
+    </Setting>
+    <Setting Name="Comport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="BillCopies" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="QrThaiParNerId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CTM004</Value>
+    </Setting>
+    <Setting Name="QrThaiParNerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cha Tra Mue</Value>
+    </Setting>
+    <Setting Name="QrThaiPartnerSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WJ4V6SXA8tk3Kpj0XXY9l8iNBkRtGfCCWr5UE7hy0Y66Pz5SSUSb5vsUSrBCYIr9</Value>
+    </Setting>
+    <Setting Name="QrThaiMerchantId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KB000001518278</Value>
+    </Setting>
+    <Setting Name="QrAliPartnerId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PTR0000030</Value>
+    </Setting>
+    <Setting Name="QrAliPartnerSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Qxdl5KZfISQFqC1JNzsxzhGDZmecmU9oa4sgfN6oVipR3oX6t2w97UvCQPEh8PDo</Value>
+    </Setting>
+    <Setting Name="QrAliMerchantId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EXT01000250227</Value>
+    </Setting>
+    <Setting Name="AliTerminal_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">55101944</Value>
+    </Setting>
+    <Setting Name="WechatTerminal_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">55202387</Value>
+    </Setting>
+    <Setting Name="Ali_Sub_MID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">401011796876001</Value>
+    </Setting>
+    <Setting Name="WeChat_Sub_MID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">401011796884001</Value>
+    </Setting>
+    <Setting Name="QrDb_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hiveup_ctmicon</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

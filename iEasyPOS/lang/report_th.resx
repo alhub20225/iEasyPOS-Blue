@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="month" xml:space="preserve">
+    <value>เดือน</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>กะที่</value>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>พิมพ์</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>รายงาน</value>
+  </data>
+  <data name="report80" xml:space="preserve">
+    <value>รายงาน 80mm</value>
+  </data>
+  <data name="report80Terminal" xml:space="preserve">
+    <value>รายงาน 80mm (แยกเครื่อง)</value>
+  </data>
+  <data name="reportCancelSale" xml:space="preserve">
+    <value>รายงานยกเลิกการขาย</value>
+  </data>
+  <data name="reportCloseShift" xml:space="preserve">
+    <value>รายงานการปิดกะการขาย</value>
+  </data>
+  <data name="reportDaliy" xml:space="preserve">
+    <value>รายงานประจำวัน</value>
+  </data>
+  <data name="reportExpenses" xml:space="preserve">
+    <value>รายงานค่าใช้จ่าย</value>
+  </data>
+  <data name="reportGrab" xml:space="preserve">
+    <value>รายงาน Grab Food</value>
+  </data>
+  <data name="reportLine" xml:space="preserve">
+    <value>รายงาน LINE MAN</value>
+  </data>
+  <data name="reportMaterial" xml:space="preserve">
+    <value>รายงานวัตถุดิบประจำวัน</value>
+  </data>
+  <data name="reportPaymentDetail" xml:space="preserve">
+    <value>รายงานรายละเอียดการชำระเงิน</value>
+  </data>
+  <data name="reportProduct" xml:space="preserve">
+    <value>รายงานสินค้าในระบบ</value>
+  </data>
+  <data name="reportProfit" xml:space="preserve">
+    <value>รายงานต้นทุน-กำไร</value>
+  </data>
+  <data name="reportRobin" xml:space="preserve">
+    <value>รายงาน RobinHood</value>
+  </data>
+  <data name="reportSaleCategory" xml:space="preserve">
+    <value>รายงานการขายตามหมวดสินค้า</value>
+  </data>
+  <data name="reportSaleCustomer" xml:space="preserve">
+    <value>รายงานขายสินค้าแยกตามลูกค้า</value>
+  </data>
+  <data name="reportsaleDay" xml:space="preserve">
+    <value>รายงานการขายแยกวัน</value>
+  </data>
+  <data name="reportSaleNo" xml:space="preserve">
+    <value>รายงานการขาย (เลขที่การขาย)</value>
+  </data>
+  <data name="reportSaleNoDetail" xml:space="preserve">
+    <value>รายงานการขาย
+(เลขที่การขาย) รายละเอียด</value>
+  </data>
+  <data name="reportSalePayment" xml:space="preserve">
+    <value>รายงานการขาย (แยกการชำระเงิน)</value>
+  </data>
+  <data name="reportShopee" xml:space="preserve">
+    <value>รายงาน Shopee</value>
+  </data>
+  <data name="reportStock" xml:space="preserve">
+    <value>รายงานสินค้าคงเหลือ</value>
+  </data>
+  <data name="reportTopping" xml:space="preserve">
+    <value>รายงาน Topping</value>
+  </data>
+  <data name="reportTopSale" xml:space="preserve">
+    <value>รายงานสินค้าขายดี</value>
+  </data>
+  <data name="reportVat" xml:space="preserve">
+    <value>รายงานภาษีการขาย</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>ส่งรายงาน</value>
+  </data>
+  <data name="sendEmail" xml:space="preserve">
+    <value>ส่งรายงานย้อนหลัง / พิมพ์ใบปิดกะ</value>
+  </data>
+  <data name="sendEmailMonth" xml:space="preserve">
+    <value>ส่งรายงานย้อนหลังรายเดือน</value>
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>ปีที่</value>
+  </data>
+</root>

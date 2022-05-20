@@ -1,0 +1,3 @@
+Partner Type: corporate
+        Partner ID: CRP0000011
+        Partner name: Cha Tra Mue

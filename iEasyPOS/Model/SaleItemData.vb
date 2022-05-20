@@ -1,0 +1,29 @@
+﻿Public Class SaleItemData
+    Public SaleItemId As Integer?
+    Public Active As Boolean?
+    Public SaleId As Integer?
+    Public ItemId As Integer?
+    Public CategoryId As Integer?
+    Public ItemCode As String
+    Public ItemName As String
+    Public InitPrice As Decimal?
+    Public UnitPrice As Decimal?
+    Public Qty As Decimal?
+    Public SubTotal As Decimal?
+    Public Tax As Decimal?
+    Public Total As Decimal?
+    Public PercentDC As Decimal?
+    Public BahtDC As Decimal?
+    Public AmtDC As Decimal?
+    Public AmtDCWTax As Decimal?
+    Public SVCPercent As Decimal?
+    Public SVCAmt As Decimal?
+    Public SVCAmtWTax As Decimal?
+    Public InsertDate As String
+    Public UpdateDate As String
+    Public TerminalName As String
+    Public UserId As Integer?
+    Public PrinterName As String
+    Public TerminalId As Integer?
+    Public StatusPrint As Integer?
+End Class
